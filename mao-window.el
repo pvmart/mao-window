@@ -26,7 +26,6 @@ list of lists of the window, an overlay hiding text under the
 message, an overlay with the message, and a point in the window"
   (with-current-buffer (window-buffer w)
     (let* ((h (window-hscroll w))
-           (v (window-vscroll w))
            (a (window-width w))
            (b (window-height w))
            (s (window-start w))
